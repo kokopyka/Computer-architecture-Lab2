@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>__SERVER__</title>
+    <script type="text/javascript" src="static/jquery-latest.min.js"></script>
+    <script src="scripts/Server.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/Common.css">
+</head>
+<body bgcolor="#380000" onload="update()">
+
+<div id="header">
+    <p align="center"><font size="6" class="header-text">SERVER</font></p>
+</div>
+
+<div id="menu">
+    <table align="center">
+        <tr>
+            <td>
+                <button onclick="resume()"><img src="static/start-icon.png" class="btn-menu"/></button>
+            </td>
+            <td>
+                <button onclick="pause()"><img src="static/Pause-icon.png" class="btn-menu"/></button>
+            </td>
+            <td>
+                <button onclick="restart()"><img src="static/refresh.png" class="btn-menu"/></button>
+            </td>
+        </tr>
+    </table><br>
+</div>
+
+<div id="show">
+    <table align="center">
+        <tr>
+            <td><p align="left"><font class="show-results">Clients:</font></p></td>
+            <td width="300px"><div id="clients-number"></div></td>
+        </tr>
+        <tr>
+            <td><p align="left"><font class="show-results">Percentage:</font></p></td>
+            <td width="300px"><div id="percentage-number"></div></td>
+        </tr>
+        <tr>
+            <td><p align="left"><font class="show-results">Time taken:</font></p></td>
+            <td width="300px"><div id="time-taken"></div></td>
+        </tr>
+        <tr>
+            <td><p align="left"><font class="show-results">Closest dot[x,y,z]:</font></p></td>
+            <td width="300px"><div id="closest-dot"></div></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
