@@ -1,0 +1,53 @@
+Help on module Main:
+
+NAME
+    Main
+
+FILE
+    /home/oleh/PycharmProjects/proj/lab2/Main.py
+
+FUNCTIONS
+    send_scripts(filename)
+        # Returns static file. Used for getting JavaScript files from /static folder
+    
+    send_static(filename)
+        # Returns static file. Used for getting JavaScript files from /static folder
+    
+    server()
+        # Displays server data html page for request localhost:8080/server
+    
+    server_get()
+        # Returns global server variables when /ServerData is requested
+    
+    server_post()
+        # Receives data from Server.js through request key
+    
+    worker()
+        # Displays worker data html page for request localhost:8080/worker
+    
+    worker_get()
+        # Returns global web worker variables when /WorkerData is requested
+    
+    worker_post()
+        # Receives data from Worker.js through request keys
+
+DATA
+    __author__ = 'Oleh'
+    all_dots_number = 30000000
+    clients_number = 0
+    main_dot = [10, 10, 10]
+    minimal_ways_from_nodes = []
+    parts_number = 100
+    parts_received = []
+    parts_sent = []
+    percentage = 0
+    request = <LocalRequest: GET http://127.0.0.1/>
+    result = -1
+    server_state = 2
+    start_time = 0
+    time_taken = 0
+
+AUTHOR
+    Oleh
+
+
