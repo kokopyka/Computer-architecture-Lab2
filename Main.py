@@ -1,6 +1,3 @@
-import pydoc
-import sys
-
 __author__ = 'Oleh'
 
 import time
